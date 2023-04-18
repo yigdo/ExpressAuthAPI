@@ -10,6 +10,7 @@ const CountryRouter = require("./routes/country");
 
 const User = require("./db/User");
 const Country = require("./db/Country");
+const RefreshToken = require("./db/RefreshToken")
 const db = require("./db/db");
 
 app.use(express.json());
